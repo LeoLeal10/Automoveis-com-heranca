@@ -1,0 +1,25 @@
+﻿{
+  "$type": "System.Collections.Generic.List`1[[N2B2_POO.Modelo, N2B2 POO]], mscorlib",
+  "$values": [
+    {
+      "$type": "N2B2_POO.Modelo, N2B2 POO",
+      "Codigo": 1,
+      "Descricao": "Modelo 1",
+      "MarcaVeiculo": {
+        "$type": "N2B2_POO.Marca, N2B2 POO",
+        "Codigo": 1,
+        "Descricao": "Marca 1"
+      }
+    },
+    {
+      "$type": "N2B2_POO.Modelo, N2B2 POO",
+      "Codigo": 2,
+      "Descricao": "Modelo 2",
+      "MarcaVeiculo": {
+        "$type": "N2B2_POO.Marca, N2B2 POO",
+        "Codigo": 2,
+        "Descricao": "Marca 2"
+      }
+    }
+  ]
+}
