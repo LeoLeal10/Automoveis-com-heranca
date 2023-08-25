@@ -317,7 +317,7 @@ namespace N2B2_POO
                         sb.Append(item.ToString());
                         valorTotal += item.ValorRecebido;
                     }
-                    sb.AppendLine("Valor total pago com pedágios: R$ " +valorTotal.ToString("0.00"));
+                    sb.AppendLine("Valor total pago com pedágios: R$ " + valorTotal.ToString("0.00"));
                     lista = new ucLista(sb.ToString());
                     panelCadastro.Controls.Add(lista);
                     lista.Dock = DockStyle.Fill;

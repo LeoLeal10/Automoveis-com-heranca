@@ -79,3 +79,30 @@ C:\Users\leops\OneDrive\Área de Trabalho\Trabalhos\Carros\N2B2 POO\N2B2 POO\obj
 C:\Users\leops\OneDrive\Área de Trabalho\Trabalhos\Carros\N2B2 POO\N2B2 POO\obj\Debug\N2B2 POO.csproj.CopyComplete
 C:\Users\leops\OneDrive\Área de Trabalho\Trabalhos\Carros\N2B2 POO\N2B2 POO\obj\Debug\N2B2 POO.exe
 C:\Users\leops\OneDrive\Área de Trabalho\Trabalhos\Carros\N2B2 POO\N2B2 POO\obj\Debug\N2B2 POO.pdb
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\bin\Debug\N2B2 POO.exe.config
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\bin\Debug\N2B2 POO.exe
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\bin\Debug\N2B2 POO.pdb
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2 POO.csproj.AssemblyReference.cache
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.frmPrincipal.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.Properties.Resources.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.ucAcoes.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.ucAviao.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.ucAviaoGuerra.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.ucCaminhao.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.ucCarro.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.ucLista.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.ucPedagio.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.ucMarca.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.ucModelo.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.ucMoto.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.ucNavio.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.ucNavioGuerra.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.ucOnibus.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2_POO.ucTrem.resources
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2 POO.csproj.GenerateResource.cache
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2 POO.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2 POO.csproj.CopyComplete
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2 POO.exe
+C:\Users\Leonardo\Desktop\Portifólio\Carros\Automóveis com herança\N2B2 POO\obj\Debug\N2B2 POO.pdb

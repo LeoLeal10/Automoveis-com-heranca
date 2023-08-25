@@ -52,7 +52,7 @@ namespace N2B2_POO
 
         public override string ToString()
         {
-            return base.ToString();
+            return base.ToString() + "O avisão está no ar: " + (decolou? "Sim" : "Não") + Environment.NewLine;
         }
     }
 }

@@ -8,13 +8,13 @@ namespace N2B2_POO
 {
     public abstract class VeiculoBase
     {
-        public string Identificacao { get; set; }
+        protected string Identificacao;
 
-        public Modelo ModeloVeiculo { get; set; }
+        protected Modelo ModeloVeiculo;
 
-        public int VelocidadeAtual { get; set; }
+        protected int VelocidadeAtual;
 
-        public int CapacidadePassageiros { get; set; }
+        protected int CapacidadePassageiros;
 
         public VeiculoBase(string id, Modelo model, int capPassageiro)
         {
@@ -38,11 +38,19 @@ namespace N2B2_POO
 
         public override string ToString()
         {
-            return "Identificação:" + Identificacao + Environment.NewLine +
-                   "Modelo: " + ModeloVeiculo.Descricao + Environment.NewLine +
-                   "Marca: " +  ModeloVeiculo.MarcaVeiculo.Descricao + Environment.NewLine +
+            return "Identificação: " + Identificacao + Environment.NewLine +
+                   "Modelo: " + ModeloVeiculo.GetDescricao() + Environment.NewLine +
+                   "Marca: " +  ModeloVeiculo.GetMarca().GetDescricao() + Environment.NewLine +
                    "Velocidade atual: " + VelocidadeAtual + " Km/h" + Environment.NewLine +
                    "Capacidade de Passageiros: " + CapacidadePassageiros + Environment.NewLine;
         }
+
+        public string GetIdentificacao() { return Identificacao; }
+        public Modelo GetModeloVeiculo() { return ModeloVeiculo; }
+        public int GetVelocidadeAtual() { return VelocidadeAtual;}
+        public int GetCapacidadePassageiros() { return CapacidadePassageiros; }
+
+        public void SetIdentificacao(string Identificacao) { this.Identificacao = Identificacao; }
+        public void SetModeloVeiculo(Modelo ModeloVeiculo) { this.ModeloVeiculo = ModeloVeiculo; }
     }
 }

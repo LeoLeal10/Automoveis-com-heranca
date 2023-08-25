@@ -10,7 +10,9 @@ namespace N2B2_POO
     {
         private const double valorPedagio = 8.50;
 
-        public int QtdEixos { get; set; }        
+        protected int QtdEixos;
+        private bool Acionador;
+        public double NumeroPedagiosPagos { get; set; }
 
         public VeiculoPesadoTerrestre(string id, Modelo model, int capPassageiro, int qtdEixos)
             : base(id, model, capPassageiro)
@@ -18,32 +20,28 @@ namespace N2B2_POO
             QtdEixos = qtdEixos;
         }
 
-        private bool acionador;
+        public int GetQtdEixos() { return QtdEixos; }
+        public bool GetAcionador() { return Acionador; }
+        public double GetNumeroPedagiosPagos() { return NumeroPedagiosPagos; }
+
+        public void SetQtdEixos(int QtdEixos) { this.QtdEixos= QtdEixos; }
+
+        public double GastoTotalPedagios() => NumeroPedagiosPagos * valorPedagio * QtdEixos;
+
         public void Limpador()
         {
-            if (acionador)
+            if (Acionador)
             {
-                acionador = false;
+                Acionador = false;
                 Console.WriteLine($"Limpador do veículo {Identificacao} desligado.");
             }
 
             else
             {
-                acionador = true;
+                Acionador = true;
                 Console.WriteLine($"Limpador do veículo {Identificacao} ligado.");
             }
-        }     
-
-        public override string ToString()
-        {
-            return base.ToString() + "Quantidade de eixos: " + QtdEixos + Environment.NewLine +
-                                     "Valor pedágio: R$ " + (valorPedagio*QtdEixos).ToString("0.00") + Environment.NewLine +  
-                                     "Valor gasto com pedágios: R$ " + GastoTotalPedagios().ToString("0.00") + Environment.NewLine +
-                                     "Limpador acionado: " + (acionador ? "Sim " : "Não ") + Environment.NewLine;
-            
-        }
-
-        public double NumeroPedagiosPagos { get; set; }
+        }        
 
         public double PagarPedagio()
         {
@@ -52,6 +50,12 @@ namespace N2B2_POO
             return valorPedagio * QtdEixos;            
         }
 
-        public double GastoTotalPedagios() => NumeroPedagiosPagos * valorPedagio * QtdEixos; 
+        public override string ToString()
+        {
+            return base.ToString() + "Quantidade de eixos: " + QtdEixos + Environment.NewLine +
+                                     "Valor pedágio: R$ " + (valorPedagio * QtdEixos).ToString("0.00") + Environment.NewLine +
+                                     "Valor gasto com pedágios: R$ " + GastoTotalPedagios().ToString("0.00") + Environment.NewLine +
+                                     "Limpador acionado: " + (Acionador ? "Sim " : "Não ") + Environment.NewLine;
+        }
     }
 }

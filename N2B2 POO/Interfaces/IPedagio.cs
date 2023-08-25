@@ -13,6 +13,6 @@ namespace N2B2_POO
         double GastoTotalPedagios();
 
         double NumeroPedagiosPagos { get; set; }
- 
+
     }
 }

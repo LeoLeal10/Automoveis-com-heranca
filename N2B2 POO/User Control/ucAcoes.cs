@@ -22,7 +22,7 @@ namespace N2B2_POO
 
         public ucAcoes(string idVeiculo)
         {
-            indexVeiculo = Dados.listaVeiculos.FindIndex(veiculoProcurado => veiculoProcurado.Identificacao == idVeiculo);
+            indexVeiculo = Dados.listaVeiculos.FindIndex(veiculoProcurado => veiculoProcurado.GetIdentificacao() == idVeiculo);
 
             if (indexVeiculo < 0) 
                 throw new Exception("Veículo não encontrado!!!");
