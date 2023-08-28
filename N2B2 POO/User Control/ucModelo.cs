@@ -33,7 +33,11 @@ namespace N2B2_POO
         {
             try
             {
-                Modelo item = new Modelo(Convert.ToUInt16(txtCod), txtDesc.Text, (Marca)cbMarcas.SelectedItem);
+                int codigo = Convert.ToUInt16(txtCod.Text);
+                string descricao = txtDesc.Text.ToString();
+                Marca marca = (Marca)cbMarcas.SelectedItem;
+
+                Modelo item = new Modelo(codigo, descricao, marca);
                 Dados.listaModelos.Add(item);
             }
             catch (Exception erro)

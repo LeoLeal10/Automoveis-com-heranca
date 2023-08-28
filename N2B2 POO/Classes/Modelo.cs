@@ -8,31 +8,23 @@ namespace N2B2_POO
 {
     public class Modelo
     {
-        private int Codigo;
-        private string Descricao;
-        private Marca MarcaVeiculo;
+        public int Codigo { get; set; }
+        public string Descricao { get; set; }
+        public Marca MarcaVeiculo { get; set; }
 
-        public Modelo(ushort cod, string desc, Marca marca)
+        public Modelo(int cod, string desc, Marca marca)
         {
             Codigo = cod;
             Descricao = desc;
             MarcaVeiculo = marca;
         }
 
-        public int GetCodigo() { return Codigo; }
-        public string GetDescricao() { return Descricao; }
-        public Marca GetMarca() { return MarcaVeiculo; }
-
-        public void SetCodigo(int codigo) { this.Codigo = codigo; }
-        public void SetDescricao(string descricao) { this.Descricao = descricao; }
-        public void SetMarca(Marca marcaVeiculo) { this.MarcaVeiculo = marcaVeiculo; }
-
         public override string ToString()
         {
             return "MODELO" + Environment.NewLine +
                    "Código: " + Codigo + Environment.NewLine +
                    "Descrição: " + Descricao + Environment.NewLine +
-                   $"Marca: {MarcaVeiculo.GetCodigo()} - {MarcaVeiculo.GetDescricao()}" + Environment.NewLine + Environment.NewLine;
+                   $"Marca: {MarcaVeiculo.Codigo} - {MarcaVeiculo.Descricao}" + Environment.NewLine + Environment.NewLine;
         }
     }
 }

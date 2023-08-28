@@ -131,6 +131,7 @@ namespace N2B2_POO
             // 
             // btnSalvar
             // 
+            this.btnSalvar.Enabled = false;
             this.btnSalvar.Location = new System.Drawing.Point(16, 527);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(132, 28);
@@ -141,6 +142,7 @@ namespace N2B2_POO
             // 
             // btnCarregar
             // 
+            this.btnCarregar.Enabled = false;
             this.btnCarregar.Location = new System.Drawing.Point(154, 527);
             this.btnCarregar.Name = "btnCarregar";
             this.btnCarregar.Size = new System.Drawing.Size(147, 28);

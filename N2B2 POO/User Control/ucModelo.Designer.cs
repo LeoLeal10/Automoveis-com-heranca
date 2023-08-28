@@ -44,7 +44,7 @@ namespace N2B2_POO
             this.btnCadastrar.Location = new System.Drawing.Point(9, 137);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(125, 30);
-            this.btnCadastrar.TabIndex = 55;
+            this.btnCadastrar.TabIndex = 4;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
@@ -54,7 +54,7 @@ namespace N2B2_POO
             this.txtCod.Location = new System.Drawing.Point(70, 39);
             this.txtCod.Name = "txtCod";
             this.txtCod.Size = new System.Drawing.Size(85, 26);
-            this.txtCod.TabIndex = 54;
+            this.txtCod.TabIndex = 1;
             // 
             // label6
             // 
@@ -70,7 +70,7 @@ namespace N2B2_POO
             this.txtDesc.Location = new System.Drawing.Point(91, 71);
             this.txtDesc.Name = "txtDesc";
             this.txtDesc.Size = new System.Drawing.Size(242, 26);
-            this.txtDesc.TabIndex = 52;
+            this.txtDesc.TabIndex = 2;
             // 
             // label2
             // 
@@ -107,7 +107,7 @@ namespace N2B2_POO
             this.cbMarcas.Location = new System.Drawing.Point(72, 103);
             this.cbMarcas.Name = "cbMarcas";
             this.cbMarcas.Size = new System.Drawing.Size(203, 28);
-            this.cbMarcas.TabIndex = 57;
+            this.cbMarcas.TabIndex = 3;
             // 
             // ucModelo
             // 

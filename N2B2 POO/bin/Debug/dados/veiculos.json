@@ -4,157 +4,43 @@
     {
       "$type": "N2B2_POO.Carro, N2B2 POO",
       "QuantidadePortas": 4,
-      "NumeroPedagiosPagos": 3.0,
-      "Identificacao": "Carro para teste",
-      "ModeloVeiculo": {
-        "$type": "N2B2_POO.Modelo, N2B2 POO",
-        "Codigo": 1,
-        "Descricao": "Modelo 1",
-        "MarcaVeiculo": {
-          "$type": "N2B2_POO.Marca, N2B2 POO",
-          "Codigo": 1,
-          "Descricao": "Marca 1"
-        }
-      },
-      "VelocidadeAtual": 0,
-      "CapacidadePassageiros": 5
+      "NumeroPedagiosPagos": 0.0
     },
     {
       "$type": "N2B2_POO.Caminhao, N2B2 POO",
       "PesoCarregado": 200.0,
       "CapacidadeMaximaEmKG": 780.0,
-      "QtdEixos": 8,
-      "NumeroPedagiosPagos": 0.0,
-      "Identificacao": "Caminhão para teste",
-      "ModeloVeiculo": {
-        "$type": "N2B2_POO.Modelo, N2B2 POO",
-        "Codigo": 2,
-        "Descricao": "Modelo 2",
-        "MarcaVeiculo": {
-          "$type": "N2B2_POO.Marca, N2B2 POO",
-          "Codigo": 2,
-          "Descricao": "Marca 2"
-        }
-      },
-      "VelocidadeAtual": 0,
-      "CapacidadePassageiros": 3
+      "NumeroPedagiosPagos": 0.0
     },
     {
       "$type": "N2B2_POO.Onibus, N2B2 POO",
       "Leito": true,
-      "QtdEixos": 6,
-      "NumeroPedagiosPagos": 0.0,
-      "Identificacao": "Ônibus para teste",
-      "ModeloVeiculo": {
-        "$type": "N2B2_POO.Modelo, N2B2 POO",
-        "Codigo": 1,
-        "Descricao": "Modelo 1",
-        "MarcaVeiculo": {
-          "$type": "N2B2_POO.Marca, N2B2 POO",
-          "Codigo": 1,
-          "Descricao": "Marca 1"
-        }
-      },
-      "VelocidadeAtual": 0,
-      "CapacidadePassageiros": 25
+      "NumeroPedagiosPagos": 0.0
     },
     {
       "$type": "N2B2_POO.Moto, N2B2 POO",
-      "NumeroPedagiosPagos": 1.0,
-      "Identificacao": "Moto para teste",
-      "ModeloVeiculo": {
-        "$type": "N2B2_POO.Modelo, N2B2 POO",
-        "Codigo": 1,
-        "Descricao": "Modelo 1",
-        "MarcaVeiculo": {
-          "$type": "N2B2_POO.Marca, N2B2 POO",
-          "Codigo": 1,
-          "Descricao": "Marca 1"
-        }
-      },
-      "VelocidadeAtual": 0,
-      "CapacidadePassageiros": 2
+      "NumeroPedagiosPagos": 0.0
     },
     {
-      "$type": "N2B2_POO.Aviao, N2B2 POO",
-      "Identificacao": "Avião para teste",
-      "ModeloVeiculo": {
-        "$type": "N2B2_POO.Modelo, N2B2 POO",
-        "Codigo": 2,
-        "Descricao": "Modelo 2",
-        "MarcaVeiculo": {
-          "$type": "N2B2_POO.Marca, N2B2 POO",
-          "Codigo": 2,
-          "Descricao": "Marca 2"
-        }
-      },
-      "VelocidadeAtual": 0,
-      "CapacidadePassageiros": 9
+      "$type": "N2B2_POO.Aviao, N2B2 POO"
     },
     {
-      "$type": "N2B2_POO.AviaoGuerra, N2B2 POO",
-      "Identificacao": "Avião de guerra para teste",
-      "ModeloVeiculo": {
-        "$type": "N2B2_POO.Modelo, N2B2 POO",
-        "Codigo": 1,
-        "Descricao": "Modelo 1",
-        "MarcaVeiculo": {
-          "$type": "N2B2_POO.Marca, N2B2 POO",
-          "Codigo": 1,
-          "Descricao": "Marca 1"
-        }
-      },
-      "VelocidadeAtual": 0,
-      "CapacidadePassageiros": 2
+      "$type": "N2B2_POO.AviaoGuerra, N2B2 POO"
     },
     {
-      "$type": "N2B2_POO.Navio, N2B2 POO",
-      "Identificacao": "Navio para teste",
-      "ModeloVeiculo": {
-        "$type": "N2B2_POO.Modelo, N2B2 POO",
-        "Codigo": 2,
-        "Descricao": "Modelo 2",
-        "MarcaVeiculo": {
-          "$type": "N2B2_POO.Marca, N2B2 POO",
-          "Codigo": 2,
-          "Descricao": "Marca 2"
-        }
-      },
-      "VelocidadeAtual": 0,
-      "CapacidadePassageiros": 290
+      "$type": "N2B2_POO.Navio, N2B2 POO"
     },
     {
-      "$type": "N2B2_POO.NavioGuerra, N2B2 POO",
-      "Identificacao": "Navio de guerra para teste",
-      "ModeloVeiculo": {
-        "$type": "N2B2_POO.Modelo, N2B2 POO",
-        "Codigo": 1,
-        "Descricao": "Modelo 1",
-        "MarcaVeiculo": {
-          "$type": "N2B2_POO.Marca, N2B2 POO",
-          "Codigo": 1,
-          "Descricao": "Marca 1"
-        }
-      },
-      "VelocidadeAtual": 0,
-      "CapacidadePassageiros": 370
+      "$type": "N2B2_POO.NavioGuerra, N2B2 POO"
     },
     {
       "$type": "N2B2_POO.Trem, N2B2 POO",
-      "QtdVagoes": 0,
-      "Identificacao": "Trem para teste",
-      "ModeloVeiculo": {
-        "$type": "N2B2_POO.Modelo, N2B2 POO",
-        "Codigo": 1,
-        "Descricao": "Modelo 1",
-        "MarcaVeiculo": {
-          "$type": "N2B2_POO.Marca, N2B2 POO",
-          "Codigo": 1,
-          "Descricao": "Marca 1"
-        }
-      },
-      "VelocidadeAtual": 0,
-      "CapacidadePassageiros": 100
+      "QtdVagoes": 0
+    },
+    {
+      "$type": "N2B2_POO.Carro, N2B2 POO",
+      "QuantidadePortas": 4,
+      "NumeroPedagiosPagos": 7.0
     }
   ]
 }

@@ -16,7 +16,12 @@ namespace N2B2_POO
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmPrincipal());
+
+            MainForm = new frmPrincipal();
+
+            Application.Run(MainForm);
         }
+
+        public static frmPrincipal MainForm;
     }
 }

@@ -20,6 +20,16 @@
         "Codigo": 2,
         "Descricao": "Marca 2"
       }
+    },
+    {
+      "$type": "N2B2_POO.Modelo, N2B2 POO",
+      "Codigo": 5,
+      "Descricao": "Etios",
+      "MarcaVeiculo": {
+        "$type": "N2B2_POO.Marca, N2B2 POO",
+        "Codigo": 1,
+        "Descricao": "Marca 1"
+      }
     }
   ]
 }

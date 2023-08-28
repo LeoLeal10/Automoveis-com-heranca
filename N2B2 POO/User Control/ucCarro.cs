@@ -20,6 +20,8 @@ namespace N2B2_POO
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
+            Modelo modelo = (Modelo)cbModelo.SelectedItem;
+
             try
             {
                 Carro item = new Carro(txtID.Text,

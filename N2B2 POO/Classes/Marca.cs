@@ -8,20 +8,14 @@ namespace N2B2_POO
 {
     public class Marca
     {
-        private UInt16 Codigo;
-        private string Descricao;
+        public UInt16 Codigo { get; set; }
+        public string Descricao { get; set; }
 
         public Marca(ushort codigo, string descricao)
         {
             Codigo = codigo;
             Descricao = descricao;
         }
-
-        public UInt16 GetCodigo() { return Codigo; }
-        public string GetDescricao() { return Descricao; }
-
-        public void SetCodigo(UInt16 codigo) { Codigo = codigo; }
-        public void SetDescricao(string descricao) { Descricao = descricao; }
 
         public override string ToString()
         {

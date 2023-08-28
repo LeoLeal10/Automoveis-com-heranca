@@ -90,6 +90,7 @@ namespace N2B2_POO
             try
             {
                 Dados.listaVeiculos[indexVeiculo].Acelerar();
+                Program.MainForm.atualizaTela(sender, e);
             }
             catch(Exception erro)
             {
@@ -100,13 +101,16 @@ namespace N2B2_POO
         private void btnFrear_Click(object sender, EventArgs e)
         {
             Dados.listaVeiculos[indexVeiculo].Frear();
+            Program.MainForm.atualizaTela(sender, e);
+
         }
 
         private void btnLimpador_Click(object sender, EventArgs e)
         {
             if(Dados.listaVeiculos[indexVeiculo] is ILimpador)            
-                (Dados.listaVeiculos[indexVeiculo] as ILimpador).Limpador();           
+                (Dados.listaVeiculos[indexVeiculo] as ILimpador).Limpador();
 
+            Program.MainForm.atualizaTela(sender, e);
         }
 
         private void btnEmpinar_Click(object sender, EventArgs e)
@@ -119,7 +123,8 @@ namespace N2B2_POO
         {
             identificacaoPedagio = cbPedagio.SelectedIndex;
 
-            Dados.listaPedagios[identificacaoPedagio].RecebePagamento((Dados.listaVeiculos[indexVeiculo] as IPedagio).PagarPedagio());            
+            Dados.listaPedagios[identificacaoPedagio].RecebePagamento((Dados.listaVeiculos[indexVeiculo] as IPedagio).PagarPedagio());
+            Program.MainForm.atualizaTela(sender, e);
         }            
 
         private void btnCarregarCaminhao_Click(object sender, EventArgs e)
@@ -128,6 +133,7 @@ namespace N2B2_POO
             {
                 Caminhao veiculo = (Caminhao)Dados.listaVeiculos[indexVeiculo];
                 veiculo.Carregar(Convert.ToDouble(txtCarregarCaminhao.Text));
+                Program.MainForm.atualizaTela(sender, e);
             }
             catch(Exception erro)
             {
@@ -139,7 +145,7 @@ namespace N2B2_POO
         {
             Caminhao veiculo = (Caminhao)Dados.listaVeiculos[indexVeiculo];
             veiculo.Descarregar();
-
+            Program.MainForm.atualizaTela(sender, e);
         }
 
         private void btnAtracar_Click(object sender, EventArgs e)
@@ -148,6 +154,7 @@ namespace N2B2_POO
             {
                 VeiculoAquatico veiculo = (VeiculoAquatico)Dados.listaVeiculos[indexVeiculo];
                 veiculo.Atracar();
+                Program.MainForm.atualizaTela(sender, e);
             }
             catch(Exception erro)
             {
@@ -181,6 +188,7 @@ namespace N2B2_POO
             {
                 VeiculoAereo veiculo = (VeiculoAereo)Dados.listaVeiculos[indexVeiculo];
                 veiculo.Decolar();
+                Program.MainForm.atualizaTela(sender, e);
             }
             catch(Exception erro)
             {
@@ -207,6 +215,7 @@ namespace N2B2_POO
             {
                 VeiculoAereo veiculo = (VeiculoAereo)Dados.listaVeiculos[indexVeiculo];
                 veiculo.Pousar();
+                Program.MainForm.atualizaTela(sender, e);
             }
             catch (Exception erro)
             {
@@ -235,11 +244,7 @@ namespace N2B2_POO
                 if (v is IPedagio)                
                     Dados.listaPedagios[identificacaoPedagio].RecebePagamento((v as IPedagio).PagarPedagio());                           
             }
-        }
-
-        private void btnAtracarTodosNavios_Click(object sender, EventArgs e)
-        {
-            
+            Program.MainForm.atualizaTela(sender, e);
         }
     }
 }

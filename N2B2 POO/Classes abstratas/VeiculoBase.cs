@@ -39,8 +39,8 @@ namespace N2B2_POO
         public override string ToString()
         {
             return "Identificação: " + Identificacao + Environment.NewLine +
-                   "Modelo: " + ModeloVeiculo.GetDescricao() + Environment.NewLine +
-                   "Marca: " +  ModeloVeiculo.GetMarca().GetDescricao() + Environment.NewLine +
+                   "Modelo: " + ModeloVeiculo.Descricao + Environment.NewLine +
+                   "Marca: " +  ModeloVeiculo.MarcaVeiculo.Descricao + Environment.NewLine +
                    "Velocidade atual: " + VelocidadeAtual + " Km/h" + Environment.NewLine +
                    "Capacidade de Passageiros: " + CapacidadePassageiros + Environment.NewLine;
         }

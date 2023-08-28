@@ -5,19 +5,19 @@
       "$type": "N2B2_POO.Pedagio, N2B2 POO",
       "Identificacao": "Pedágio 1",
       "Localizacao": "km 22 ",
-      "ValorRecebido": 7.0
+      "ValorRecebido": 14.0
     },
     {
       "$type": "N2B2_POO.Pedagio, N2B2 POO",
       "Identificacao": "Pedágio 2",
       "Localizacao": "km 102 ",
-      "ValorRecebido": 14.0
+      "ValorRecebido": 28.0
     },
     {
       "$type": "N2B2_POO.Pedagio, N2B2 POO",
       "Identificacao": "Pedágio 3",
       "Localizacao": "km 253 ",
-      "ValorRecebido": 3.0
+      "ValorRecebido": 7.0
     }
   ]
 }

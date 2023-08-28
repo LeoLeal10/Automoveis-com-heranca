@@ -17,8 +17,8 @@ namespace N2B2_POO
     {       
         
         public frmPrincipal()
-        {
-            InitializeComponent();            
+        {   
+            InitializeComponent(); 
         }
 
         private void btnCadastrar_Click(object sender, EventArgs e)
@@ -330,16 +330,16 @@ namespace N2B2_POO
         {
             object item;
             
-            item = new Marca(1, "Marca 1");
+            item = new Marca(1, "Toyota");
             Dados.listaMarcas.Add((Marca)item);
 
-            item = new Marca(2, "Marca 2");
+            item = new Marca(2, "Ford");
             Dados.listaMarcas.Add((Marca)item);
 
-            item = new Modelo(1, "Modelo 1", Dados.listaMarcas[0]);
+            item = new Modelo(1, "Etios", Dados.listaMarcas[0]);
             Dados.listaModelos.Add((Modelo)item);
 
-            item = new Modelo(2, "Modelo 2", Dados.listaMarcas[1]);
+            item = new Modelo(2, "Ka", Dados.listaMarcas[1]);
             Dados.listaModelos.Add((Modelo)item);
 
             item = new Carro("Carro para teste",
@@ -472,6 +472,11 @@ namespace N2B2_POO
                 if (v is VeiculoAquatico)
                     (v as VeiculoAquatico).Atracar();
             }
+        }
+
+        public void atualizaTela(object sender, EventArgs e)
+        {
+            btnListar_Click(sender, e);
         }
     }
 }

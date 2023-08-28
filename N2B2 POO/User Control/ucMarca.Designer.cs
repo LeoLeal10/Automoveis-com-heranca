@@ -42,7 +42,7 @@ namespace N2B2_POO
             this.btnCadastrar.Location = new System.Drawing.Point(9, 103);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(125, 30);
-            this.btnCadastrar.TabIndex = 49;
+            this.btnCadastrar.TabIndex = 3;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
@@ -52,7 +52,7 @@ namespace N2B2_POO
             this.txtCod.Location = new System.Drawing.Point(70, 39);
             this.txtCod.Name = "txtCod";
             this.txtCod.Size = new System.Drawing.Size(85, 26);
-            this.txtCod.TabIndex = 48;
+            this.txtCod.TabIndex = 1;
             // 
             // label6
             // 
@@ -68,7 +68,7 @@ namespace N2B2_POO
             this.txtDesc.Location = new System.Drawing.Point(91, 71);
             this.txtDesc.Name = "txtDesc";
             this.txtDesc.Size = new System.Drawing.Size(242, 26);
-            this.txtDesc.TabIndex = 43;
+            this.txtDesc.TabIndex = 2;
             // 
             // label2
             // 
@@ -87,7 +87,7 @@ namespace N2B2_POO
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(179, 25);
-            this.label1.TabIndex = 40;
+            this.label1.TabIndex = 4;
             this.label1.Text = "Cadastro de Marca";
             // 
             // ucMarca

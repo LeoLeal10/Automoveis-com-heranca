@@ -19,20 +19,13 @@ namespace N2B2_POO
                 return;
             }
 
-
-            int velocidadeAtraque = VelocidadeAtual;
+            int velocidadeAtraque = GetVelocidadeAtual();
 
             if(VelocidadeAtual > 0)
             {
                 for (int x = velocidadeAtraque; x > 0; x--)
                     Frear();
-            }
-
-            else if(VelocidadeAtual < 0)
-            {
-                for (int x = velocidadeAtraque; x < 0; x++)
-                    Acelerar();
-            }            
+            }         
 
             Console.WriteLine("Atracando " + Identificacao);
         }
